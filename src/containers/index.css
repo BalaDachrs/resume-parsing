@@ -1,0 +1,84 @@
+.root{
+    display: flex !important;
+}
+
+.activePage {
+    width: calc(100% - 12px) !important;
+    margin: 0px 6px !important;
+    cursor: pointer !important;
+    background-color: #111827 !important; 
+    border-radius:6px !important;  
+}
+.activePage:hover{
+    cursor: pointer !important;
+    background-color: #111827 !important;
+    border-radius: 6px !important
+}
+
+.search{
+    width: 100% !important;
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    padding: 3px !important;
+    outline: none !important;
+    border: none !important;
+    color: #6B7280 !important;
+}
+
+.searchIcon{
+    height: 18px !important;
+    width: 18px !important;
+    color: #6B7280 !important;
+    margin-right: 6px !important;
+}
+
+.sideBarMain {
+    display: flex !important;
+    padding: 16px !important;
+    align-items: center !important;
+}
+
+.sideBarMainText{
+    margin-left: 10px !important;
+    font-weight: 800 !important;
+    font-size: 16px !important;
+}
+
+.drawermain .List{
+    width: 100% !important;
+}
+
+.sideBarItems{
+    width: calc(100% - 12px) !important;
+    margin: 0px 6px !important;
+}
+
+.sideBarItems:hover{
+    cursor: pointer !important;
+    background-color: #111827 !important;
+    border-radius: 6px !important
+}
+
+.MenuIcon{
+    color: #111827 !important
+}
+
+.drawerPaper{
+    width: 220 !important
+}
+
+.content {
+    flex-grow: 1 !important
+}
+
+.link{
+    text-decoration: none !important;
+    cursor: pointer !important;
+    color: #FFFFFF !important;
+}
+
+.drawermain{
+    height: 100vh !important;
+    color: #FFFFFF !important;
+    background-color: #1F2937 !important;
+}
